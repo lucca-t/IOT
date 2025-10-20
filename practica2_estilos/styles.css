@@ -53,12 +53,13 @@ img {
   width: 500px;
 }
 
-.textidk h1{
-  font-family: Tangerine;
-  font-style: bold;
-  font-size: 70px;
-  margin-bottom: 0px;
-}
+        .textidk h1{
+            font-family: Tangerine;
+            font-style: bold;
+            font-size: 70px;
+            margin-bottom: 0px;
+        }
+
 .tangerine-bold {
   font-family: "Tangerine", cursive;
   font-weight: 700;
