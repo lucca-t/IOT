@@ -60,6 +60,12 @@ img {
             margin-bottom: 0px;
         }
 
+.tangerine-regular {
+  font-family: "Tangerine", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .tangerine-bold {
   font-family: "Tangerine", cursive;
   font-weight: 700;
