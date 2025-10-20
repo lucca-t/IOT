@@ -1,32 +1,54 @@
-
-/* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
-  /*border-radius: 20px;*/
+  border-radius: 20px;
   overflow: hidden;
-  margin: -15px;
-}
 
-/* Style the links inside the navigation bar */
+}
 .topnav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
   padding-top: 30px;
   padding: 19px 16px;
-
-  text-decoration: none;
   font-size: 17px;
+  text-decoration: none;
+
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
   background-color: #5a5959;
   color: white;
 } 
+body {
+  background-image: url('../assets/jester.webp');
+  background-size: 130px;
+  text-align: center;
+}
+.textidk {
+  background-color: #312e2e;
+  text-align: center;
+  width: 800px;
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 50px;
+  padding-top: 20px;
+}
+.textidk h1,
+.textidk h2,
+.textidk p{
+  color: white;
+  text-align: center;
+
+}
+.textidk p{
+  font-size: large;
+}
+
+img {
+  width: 500px;
+}
