@@ -3,8 +3,8 @@ function playMusic() {
     
     const music = document.getElementById("music");
     const musicBtn = document.getElementById("musicButton");
-    music.volume = 1;
-
+    
+    
     if (music.paused) {
         music.play();
         musicBtn.textContent = "Pause";
@@ -17,12 +17,6 @@ function playMusic() {
 }
 
 
-
-const musicBtn = document.getElementById("musicButton");
-
-musicBtn.addEventListener("click", function (e) {
-    playMusic();
-});
 
 
 function changeDefault() {
