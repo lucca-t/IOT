@@ -1,0 +1,18 @@
+@font-face {
+  font-family: gowFont; /* set name */
+  src: url(../assets/GODOFWAR.TTF); /* url of the font */
+}
+
+body {
+    font-family: gowFont;
+    
+    
+}
+
+.mainBox {
+    background-color: grey;
+    max-width: 1000px;
+    overflow: hidden;
+    text-align: center;
+    
+}
