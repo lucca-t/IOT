@@ -2,16 +2,21 @@
 function playMusic() {
     
     const music = document.getElementById("music");
-    music.volume = 0.1;
+    const musicBtn = document.getElementById("musicButton");
+    music.volume = 1;
 
     if (music.paused) {
         music.play();
+        musicBtn.textContent = "Pause";
     } else {
         music.pause();
+        musicBtn.textContent = "Play";
     }
-    audio.volume = 0.1;
-    audio.play();
+    //music.volume = 0.1;
+    //music.play();
 }
+
+
 
 const musicBtn = document.getElementById("musicButton");
 
