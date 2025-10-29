@@ -3,16 +3,30 @@
   src: url(../assets/GODOFWAR.TTF); /* url of the font */
 }
 
-body {
+body{
     font-family: gowFont;
-    
-    
+    background-image: url(../assets/title.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
 }
+
+
 
 .mainBox {
     background-color: grey;
     max-width: 1000px;
     overflow: hidden;
     text-align: center;
+    border: 20px;
+    border-color: black;
+    border-width: 10px;
+    border-style: inset;
     
+    
+}
+
+button {
+  border-radius: 0px;
+  background-color: orange;
 }
