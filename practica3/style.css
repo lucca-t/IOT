@@ -28,10 +28,19 @@ body{
 }
 .large {
   width: 100%;
-height: 500px;
+  height: 500px;
 
 }
 button {
   border-radius: 0px;
   background-color: orange;
+}
+
+.buttons {
+  height: 100px;
+  width: auto;
+}
+.myImage {
+  height: 500px;
+  width: auto;
 }

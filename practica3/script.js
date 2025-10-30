@@ -1,10 +1,8 @@
 
-function playMusic() {
-    
+function playMusic() {    
     const music = document.getElementById("music");
     const musicBtn = document.getElementById("musicButton");
-    
-    
+
     if (music.paused) {
         music.play();
         musicBtn.textContent = "Pause";
@@ -12,8 +10,7 @@ function playMusic() {
         music.pause();
         musicBtn.textContent = "Play";
     }
-    //music.volume = 0.1;
-    //music.play();
+
 }
 
 
